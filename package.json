@@ -1,0 +1,31 @@
+{
+  "name": "zen-test-cli",
+  "version": "1.0.0",
+  "description": "This project is for Zendesk ticket management",
+  "main": "index.js",
+  "bin": {
+    "outside": "bin/zendesk"
+  },
+  "scripts": {
+    "test": "test",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pramidi11/zendesk.git"
+  },
+  "keywords": [
+    "zendesk"
+  ],
+  "author": "Pradeep Reddy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pramidi11/zendesk/issues"
+  },
+  "homepage": "https://github.com/pramidi11/zendesk#readme",
+  "dependencies": {
+    "jest": "^27.0.6",
+    "minimist": "^1.2.5",
+    "save": "^2.4.0"
+  }
+}
